@@ -3,6 +3,8 @@
 spring:
   application:
     name: tensquare-base
+  rabbitmq:
+    host: 192.168.10.10  
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     password: root
@@ -18,6 +20,4 @@ eureka:
       defaultZone: http://localhost:6868/eureka
   instance:
     prefer-ip-address: true
-  rabbitmq:
-    host: 192.168.10.10
   
